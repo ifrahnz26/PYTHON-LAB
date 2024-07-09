@@ -1,3 +1,9 @@
+'''Write a python program to create a tuple and perform the following operations  
+• Adding an items
+• Displaying the length of the tuple
+• Checking for an item in the tuple
+• Accessing an items'''
+
 def add_items(tup):
     item = input("Enter item: ")
     return tup + (item,)
