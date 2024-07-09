@@ -1,4 +1,5 @@
-''' Write a python program to display all the prime numbers in the given range.'''
+''' Write a python program to display 
+all the prime numbers in the given range.'''
 
 low = int(input("Enter the lower limit: "))
 high = int(input("Enter the upper limit: "))
