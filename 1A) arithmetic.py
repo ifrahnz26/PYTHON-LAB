@@ -3,7 +3,7 @@ from the keyboard and perform the basic arithmetic operations
 based on the choice. (1-Add, 2-Subtract, 3-Multiply, 4-Divide)'''
 
 n1 = int(input("Enter number 1: "))
-n2 = int(input("Enter numebr 2: "))
+n2 = int(input("Enter number 2: "))
 print("1. ADD\n2. SUBTRACT\n3. MULTIPLY\n4. DIVIDE")
 choice = int(input("Enter your choice "))
 if choice == 1:
