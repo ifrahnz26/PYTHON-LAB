@@ -19,12 +19,15 @@ def minmax(arr):
     return np.min(arr), np.max(arr)'''
 
 def secondMax(arr):
-    max=smax=arr[0]
-    for i in range(1,len(arr)):
-        if arr[i]>max:
+    max=smax=float('-inf')
+    for i in arr:
+        if i >max:
             smax = max
-            max = arr[i]
+            max = i
+        elif i >smax and i != max:
+            smax = i
     return smax
+
 
 arr = list(map(int,input("Enter the elements of array : ").split()))
 arr = np.array(arr)
